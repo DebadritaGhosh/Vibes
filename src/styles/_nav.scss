@@ -1,0 +1,26 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2rem;
+    
+    h1{
+        font-family: 'Great Vibes', cursive;
+        font-size: 3rem;
+        color: #E03B8B;
+    }
+    button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        border: 2px solid #E03B8B;
+        padding: 0.5rem;
+        transition: all 0.5s ease;
+        color: #CAD5E2;
+        &:hover{
+            background:rgb(65,65,65);
+            color: white;
+        }
+    }
+}
